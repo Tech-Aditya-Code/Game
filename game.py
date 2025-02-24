@@ -6,6 +6,7 @@ message = "Guess a number between 1 to 10"
 
 for char in message:
     print(char, end="", flush=True)
+    # extend execution with 0.2s
     time.sleep(0.2)
 
 print("\n")
